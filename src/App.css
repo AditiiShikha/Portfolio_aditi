@@ -162,21 +162,17 @@ object-fit:contain;
   gap: 20px;
 }
 
-.primary {
-  padding: 12px 24px;
-  background: white;
-   text-decoration: none;
-  border: none;
-  cursor: pointer;
-}
 
-.secondary {
-  padding: 12px 24px;
-  background: white;
-   text-decoration: none;
-  color: white;
-  border: 1px solid white;
-  cursor: pointer;
+.buttons a{
+  text-decoration: none;
+  color: inherit;
+}
+.primary,
+.secondary{
+  text-decoration:none;
+  padding:12px 24px;
+  background:white;
+  border-radius:4px;
 }
 .about,
 .projects,
